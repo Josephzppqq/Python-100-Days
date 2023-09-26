@@ -16,3 +16,4 @@ def factorial(n):
 
 
 print(factorial(7) // factorial(3) // factorial(4))
+# // : 取整除 - 返回商的整数部分（向下取整）
