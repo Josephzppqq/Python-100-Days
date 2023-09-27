@@ -19,7 +19,7 @@ def main():
     fruits += ['pitaya', 'pear', 'mango']
     # 循环遍历列表元素
     for fruit in fruits:
-        print(fruit.title(), end=' ')
+        print(fruit.title(), end=' ')  # .title(): 首字母大写
     print()
     # 列表切片
     fruits2 = fruits[1:4]
@@ -30,6 +30,7 @@ def main():
     fruits4 = fruits[-3:-1]
     print(fruits4)
     fruits5 = fruits[::-1]
+    print(fruits)
     print(fruits5)
 
 

@@ -22,6 +22,7 @@ def main():
     stu.setdefault('score', 60)
     print(stu)
     stu.setdefault('score', 100)
+    print(stu.setdefault('score', 100))  # 如果包含键，返回对应值，否则返回该键设置的值。
     print(stu)
     stu['score'] = 100
     print(stu)

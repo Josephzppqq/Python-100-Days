@@ -32,6 +32,7 @@ strtime = time.strftime('%Y-%m-%d %H:%M:%S', localtime)
 print(strtime)
 mydate = time.strptime('2018-1-1', '%Y-%m-%d')
 print(mydate)
+print(11111)
 
 shutil.copy('/Users/Hao/hello.py', '/Users/Hao/Desktop/first.py')
 os.system('ls -l')

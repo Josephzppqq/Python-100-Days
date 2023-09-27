@@ -21,6 +21,12 @@ def main():
         print(scores['武则天'])
     print(scores.get('武则天'))
     print(scores.get('武则天', 60))
+
+    scores['诸葛王朗'] = 888
+    print(scores)
+    scores.update(诸葛王朗=81)
+    print(scores)
+
     print(scores.popitem())
     print(scores.popitem())
     print(scores.pop('骆昊', 100))
