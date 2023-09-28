@@ -15,8 +15,8 @@ def main():
     print(set2)
     set1.add(4)
     set1.add(5)
-    set2.update([11, 12])
     print(set1)
+    set2.update([11, 12])
     print(set2)
     set2.discard(5)
     # remove的元素如果不存在会引发KeyError
@@ -29,6 +29,7 @@ def main():
     print()
     # 将元组转换成集合
     set3 = set((1, 2, 3, 3, 2, 1))
+    print(set3)
     print(set3.pop())
     print(set3)
 

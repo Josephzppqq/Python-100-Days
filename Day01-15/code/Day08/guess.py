@@ -17,7 +17,7 @@ class GuessMachine(object):
         self._hint = None
 
     def reset(self):
-        self._answer = randint(1, 100)
+        self._answer = randint(1, 100)  # 1~100
         self._counter = 0
         self._hint = None
 

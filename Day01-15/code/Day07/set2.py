@@ -17,22 +17,22 @@ def main():
     print(set1)
     set2 = set(range(2, 11, 2))
     print(set2)
-    set3 = set(range(1, 5))
-    print(set1 & set2)
+    print(set1 & set2)  # 交集
     # print(set1.intersection(set2))
-    print(set1 | set2)
+    print(set1 | set2)  # 并集
     # print(set1.union(set2))
-    print(set1 - set2)
+    print(set1 - set2)  # A-B剩下的元素
     # print(set1.difference(set2))
-    print(set1 ^ set2)
+    print(set1 ^ set2)  # 并集 - 交集
     # print(set1.symmetric_difference(set2))
-    print(set2 <= set1)
+    print(set2 <= set1)  # 是否是子集
     # print(set2.issubset(set1))
-    print(set3 <= set1)
+    set3 = set(range(1, 5))
+    print(set3 <= set1)  # 是否是子集
     # print(set3.issubset(set1))
-    print(set1 >= set2)
+    print(set1 >= set2)  # 是否是超集(父集)
     # print(set1.issuperset(set2))
-    print(set1 >= set3)
+    print(set1 >= set3)  # 是否是超集(父集)
     # print(set1.issuperset(set3))
 
 

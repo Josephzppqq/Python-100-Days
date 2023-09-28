@@ -39,9 +39,10 @@ def random_select():
 
 
 def main():
-    n = int(input('机选几注: '))
-    for _ in range(n):
-        display(random_select())
+    print(randrange(10))  # 0-9随机数
+    # n = int(input('机选几注: '))
+    # for _ in range(n):
+    #     display(random_select())
 
 
 if __name__ == '__main__':
